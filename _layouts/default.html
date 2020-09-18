@@ -2,10 +2,13 @@
 <html lang="en">
 
 {% include head.html %}
-{% if page.use_math %}
-{% include mathjax_support.html %}
-{% endif %}
-
+    
+<head>
+    {% if page.use_math %}
+    {% include mathjax_support.html %}
+    {% endif %}
+</head>
+    
 <body>
     <div class="container">
         {% include navbar.html %}
