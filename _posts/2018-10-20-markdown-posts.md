@@ -3,6 +3,7 @@ layout: post
 title: Or maybe Markdown
 subtitle: This post explains how you can write posts using Markdown.
 tags: [guide, markdown]
+use_math: true
 ---
 
 This post is written $inline x^2$ in markdown, but \( inline 2 x^3 \) you can also write a [post using html]({% link _posts/2020-02-27-html-posts.html %}).
